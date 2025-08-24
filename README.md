@@ -12,6 +12,9 @@ deactivate
 
 pip install build setuptools wheel
 python -m build
+python setup.py bdist_wheel
+python setup.py sdist
+python setup.py bdist_wheel sdist
 
 pip install {forder/package.whl}
 
