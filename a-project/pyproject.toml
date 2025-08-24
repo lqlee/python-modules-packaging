@@ -13,5 +13,5 @@ dependencies = [
 ]
 
 [tool.setuptools]
-packages = ['utils'] # Replace with your actural package name
+packages = ['util'] # Replace with your actural package FOLDER/PATH name
 
